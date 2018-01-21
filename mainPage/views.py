@@ -3,7 +3,10 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 
-db = {"null":{"exists":False, "active":False}}
+db = {"null":{"exists":False, "active":False},
+        "911":{"exists":True, "active":True,
+            "longitude":"82.3440538",
+            "latitude":"29.6480567"}}
 # Create your views here.
 @csrf_exempt
 def index(request):

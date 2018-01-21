@@ -25,7 +25,7 @@ SECRET_KEY = 'tar*x7-cu+03#gzk(h!#ognd@zrps08kw@7*(_q*9xm^wi$cl_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['138.68.251.123']
 
 
 # Application definition
